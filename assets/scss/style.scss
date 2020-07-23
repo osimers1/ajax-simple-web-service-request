@@ -1,0 +1,48 @@
+body{
+    font-family: myfont;
+    background-image: url("/assets/img/fond.jpg");
+    h1{
+        
+        display: flex;
+        justify-content: center;
+        border: 2px solid grey;
+        margin-left: 30%;
+        margin-right: 30%;
+        border-radius: 10px;
+        background-color: beige;
+    }
+    section{
+        padding: 8rem;
+        #quote{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+        }
+    
+        img{
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 30%;
+            height: auto;
+        }
+
+        #author{
+            display: flex;
+            border: 2px solid grey;
+            justify-content: center;
+            font-size: 2rem;
+            border-radius: 10px;
+            background-color: beige;
+            margin-right: 25rem;
+            margin-left: 25rem;
+        }
+    }
+    
+
+}
+@font-face{
+    font-family: myfont;
+    src: url(/assets/Lobster/Lobster-Regular.ttf);   
+}
